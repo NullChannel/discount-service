@@ -1,0 +1,41 @@
+@import "./../general";
+
+.registration-form {
+  display: flex;
+  margin: 110px auto;
+  flex-direction: column;
+  //width: 450px;
+  //height: 400px;
+
+  span {
+    font-size: 13px;
+    margin-bottom: 9px;
+    color: $main-color;
+    font-weight: 100;
+  }
+
+  input {
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding-left: 3px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    background-color: transparent;
+
+    //&:hover {
+    //   cursor: pointer;
+    //}
+
+    &:focus {
+      outline: none ;
+      border: none;
+      border-bottom: 1px solid gray !important;
+    }
+
+    &::-webkit-input-placeholder {
+      font-size: 15px;
+      color: lightgray;
+      font-weight: 100;
+    }
+  }
+}

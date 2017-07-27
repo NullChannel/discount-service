@@ -1,0 +1,38 @@
+<toast launch="action=answer&amp;callId=938163" scenario="incomingCall">
+
+    <visual>
+        <binding template="ToastGeneric">
+            <text>Discount 30% for HP ENVY x360 Convertible Laptop</text>
+            <text>Speedy general performance; Strong audio; Lots of ports</text>
+            <image src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05095142.png"/>
+        </binding>
+    </visual>
+
+    <actions>
+
+        <action
+                content="Explore"
+                imageUri="Assets/Icons/message.png"
+                activationType="foreground"
+                arguments="action=textReply&amp;callId=938163"/>
+
+        <action
+                content="Settings"
+                imageUri="Assets/Icons/reminder.png"
+                activationType="background"
+                arguments="action=reminder&amp;callId=938163"/>
+
+        <action
+                content="Cancel"
+                imageUri="Assets/Icons/cancel.png"
+                activationType="background"
+                arguments="action=ignore&amp;callId=938163"/>
+
+        <action
+                content="Buy"
+                imageUri="Assets/Icons/telephone.png"
+                arguments="action=answer&amp;callId=938163"/>
+
+    </actions>
+
+</toast>

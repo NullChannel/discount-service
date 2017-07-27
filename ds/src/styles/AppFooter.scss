@@ -1,0 +1,23 @@
+@import "./../general";
+
+.app-footer {
+  display: block;
+  height: $footer-height;
+  line-height: $footer-height;
+  background-color: $header-footer-bgk;
+  color: $header-footer-clr;
+  padding-left: 9px;
+  margin-top: $app-footer-margin-top;
+  text-align: center;
+  //box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.3);
+
+  .header-line {
+    border-radius: 0;
+    height: 0;
+    width: 100%;
+    clear: both;
+    float: left;
+    border-top:    1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  }
+}

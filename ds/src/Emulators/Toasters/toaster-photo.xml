@@ -1,0 +1,31 @@
+<toast launch="action=viewPhoto&amp;discountId=92187">
+
+<visual>
+    <binding template="ToastGeneric">
+        <image placement="appLogoOverride" hint-crop="circle" src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05095142.png"/>
+        <text>Discount 30% for HP ENVY x360 Convertible Laptop</text>
+        <text>Speedy general performance; Strong audio; Lots of ports</text>
+        <image src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05095142.png"/>
+    </binding>
+</visual>
+
+<actions>
+
+    <action
+            content="Buy"
+            activationType="background"
+            arguments="buy&amp;discountId=92187"/>
+
+    <action
+            content="Settings"
+            activationType="background"
+            arguments="settings&amp;discountId=92187"/>
+
+    <action
+            content="Cancel"
+            activationType="background"
+            arguments="cancel&amp;discountId=92187"/>
+
+</actions>
+
+</toast>

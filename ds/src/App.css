@@ -1,0 +1,16 @@
+
+/*http://stackoverflow.com/questions/8824831/make-div-stay-at-bottom-of-pages-content-all-the-time-even-when-there-are-scrol*/
+
+.app-container {
+    display: block;
+    width: 100%;
+    position: inherit;
+}
+
+/*.app-container .app-header{*/
+    /*align-self: flex-start;*/
+/*}*/
+
+/*.app-container .app-footer {*/
+    /*align-self: flex-end;*/
+/*}*/

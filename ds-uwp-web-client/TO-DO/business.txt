@@ -1,0 +1,9 @@
+- Clearance
+- On Sale
+- Discount
+- Special Offer
+- Hot deals
+
+- 10%
+- 15%
+- 20%

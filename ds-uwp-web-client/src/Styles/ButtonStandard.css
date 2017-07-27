@@ -1,0 +1,18 @@
+/*Standard*/
+.button-standard {
+  display: block;
+  margin: 9px auto;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid dodgerblue;
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.6);
+  padding: 9px 24px;
+  background-color: dodgerblue;
+  border-radius: 3px; }
+  .button-standard:hover {
+    cursor: pointer;
+    border: 2px solid dodgerblue; }
+
+/*# sourceMappingURL=ButtonStandard.css.map */

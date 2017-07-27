@@ -1,0 +1,14 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+#root {
+  background-color: #e7e7e7;
+  height: 600px;
+  width: 960px;
+  font-family: sans-serif;
+  border: 1px solid lightgray;
+  float: left; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,24 @@
+@import "./../general";
+
+.app-header {
+  display: block;
+  height: $header-height;
+  line-height: $header-height;
+  background-color: $header-footer-bgk;
+  color: $header-footer-clr;  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+
+  .toolbar-header {
+    display: block;
+    color: black;
+    float: right;
+    margin-top: 9px;
+    margin-right: 18px;
+  }
+
+  .header-title {
+    margin-left: 2*$minimize-main-menu;
+    font-size: 27px;
+    font-weight: 100;
+    text-shadow: 2px 6px 6px rgba(0,0,0,0.3), 0px -3px 33px rgba(255,255,255,0.3);
+  }
+}

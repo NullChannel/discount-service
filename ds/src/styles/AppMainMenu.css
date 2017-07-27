@@ -1,0 +1,31 @@
+.app-main-menu {
+  width: 45px;
+  background-color: dodgerblue;
+  height: 600px;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0; }
+  .app-main-menu .ds-main-logo {
+    font-size: 27px;
+    margin: auto;
+    width: 27px;
+    margin-top: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: dodgerblue;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.1; }
+  .app-main-menu .list-main-menu {
+    float: left;
+    position: absolute;
+    margin-top: 69px; }
+  .app-main-menu .vertical-line {
+    border-right: 1px solid white;
+    height: 100%; }
+
+/*# sourceMappingURL=AppMainMenu.css.map */

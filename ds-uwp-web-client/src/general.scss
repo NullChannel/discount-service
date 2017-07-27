@@ -1,0 +1,39 @@
+
+// https://en.wikipedia.org/wiki/Lists_of_colors
+// https://habrahabr.ru/company/everydaytools/blog/332956/
+
+$middle-light:          #A6A6A6;
+
+$header-discount-panel-unselected:  #5B5B5B;
+$header-discount-panel-selected:    $middle-light;
+
+$vertical-panel-bk:     #EDEDED;
+$vertical-panel-cl:     black;
+
+$very-dark-color:       #323232;
+$dark-color:            #403f3f;
+$body-bgk:              radial-gradient(ellipse at center, $middle-light, $dark-color); /*Standard*///#5f5d5c;
+
+$ctrl-color:            dodgerblue;
+$ctrl-color-rgb:        rgb(30, 144, 255);
+$ctrl-dark-color:       #005A9C; // Dodger Uniform Blue
+
+$light-icon-color:      lightgray;
+$dark-icon-color:       black;
+
+$minimize-vertical-bar-width:    36px;
+$maximize-vertical-bar-width:    180px;
+
+$font-family:           RalewayRegular;
+
+$window-width:          900px;
+$window-height:         556px;
+
+$window-panel-max:      180px;
+$window-panel-min:      150px;
+
+$window-panel-image-max:  90px;
+$window-panel-image:      90px;
+
+$switcher-width-min:        $window-width - $minimize-vertical-bar-width;
+$switcher-width-max:        $window-width - $maximize-vertical-bar-width;

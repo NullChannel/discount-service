@@ -1,0 +1,10 @@
+@import "./../general";
+
+.discount-statistics {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 98%;
+  margin-left: $minimize-main-menu;
+  margin-top: 3%;
+}

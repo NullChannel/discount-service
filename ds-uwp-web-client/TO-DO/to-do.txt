@@ -1,0 +1,32 @@
+- Config build:
+//    "build": "react-scripts build && npm run build:clean",
+//    "build:clean": "cd build && mv static/js/*.js main.js && mv static/css/*.css main.css && rm -r static",
+
+- Vertical ToolBar
+  - exit button
+  - show when log-in is done
+
+
+- LogIn class
+  - show progress-bar-ctrl
+
+- ProxyServer class
+  - for all calls to the server side
+
+
+- JSGateProxy class
+  - all call to uwp side
+
+
+- DiscountPanel class-component
+  - click on select button
+
+
+TASKs
+- DONE - connect Raleway font
+
+REWRITE
+- style DiscountPanel.scss: panel-info-dn and panel-info-up common styles
+
+Questions:
+- Check if Microsoft Browser Control have storage

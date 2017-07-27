@@ -1,0 +1,32 @@
+/*Standard*/
+.search-panel {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: RalewayRegular; }
+  .search-panel .search-section {
+    display: block; }
+    .search-panel .search-section .search-separator {
+      display: block; }
+      .search-panel .search-section .search-separator .search-title {
+        font-size: 24px; }
+      .search-panel .search-section .search-separator .search-input {
+        margin-top: 27px;
+        font-size: 27px;
+        width: 360px;
+        color: white;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: transparent; }
+        .search-panel .search-section .search-separator .search-input:focus {
+          outline: none;
+          border: none;
+          border-bottom: 1px solid gray !important; }
+        .search-panel .search-section .search-separator .search-input::-webkit-input-placeholder {
+          font-size: 18px;
+          color: lightgray;
+          font-weight: 100;
+          font-family: RalewayLight; }
+
+/*# sourceMappingURL=SearchPanel.css.map */

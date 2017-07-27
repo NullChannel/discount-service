@@ -1,0 +1,46 @@
+@import "./../general";
+
+.app-main-menu {
+  //display: none;
+  width: $minimize-main-menu;
+  background-color: $main-color;
+  height: 600px;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  //box-shadow: 6px 0px 6px -1px rgba(0, 0, 0, 0.3);
+  //background: linear-gradient(to right, $main-color 0%, $main-color 0%, $main-color 81%, darken($main-color, 6%) 100%);
+
+  .ds-main-logo {
+    font-size: 27px;
+    margin: auto;
+    width: 27px;
+    margin-top: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: dodgerblue;
+
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    color: rgba( 255, 255, 255, 0.6 );
+    opacity: 0.1;
+  }
+
+  .list-main-menu {
+    float: left;
+    position: absolute;
+    margin-top: 69px;
+  }
+
+  .vertical-line {
+    border-right: 1px solid white;
+    height: 100%;
+    //position: absolute;
+    //z-index: 999;
+    //left: 36px;
+    //box-shadow: -6px 0px 6px -1px rgba(0, 0, 0, 0.3);
+  }
+}

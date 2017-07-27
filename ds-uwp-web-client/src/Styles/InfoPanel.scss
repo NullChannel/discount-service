@@ -1,0 +1,67 @@
+@import "./../general";
+
+.blur-info-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  width: $window-width;
+  height: $window-height;
+
+  .section-for-blur {
+    position: absolute;
+    background-color: $ctrl-color;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+
+    //.section-triangle {
+    //  width: 0; //
+    //  height: 0;
+    //  border-style: solid;
+    //  border-width: 120px 120px 0 0;
+    //  border-color: #ffffff transparent transparent transparent;
+    //  opacity: .6;
+    //}
+  }
+
+  .section-for-info {
+
+    .section-text {
+      color: white;
+      font-size: 18px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      //font-family: monaco,Consolas,Lucida Console,monospace;
+
+      .section-title {
+        position: absolute;
+        top: -36px;
+        left: -24px;
+        font-size: 42px;
+        font-weight: normal;
+        color: white;
+        text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+      }
+
+      .section-content-item {
+        margin-top: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .info-list-content {
+          width: 100%;
+          color: black;
+          font-weight: normal;
+
+          .info-list-content-item {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+
+  .close-button {
+    display: block;
+  }
+}

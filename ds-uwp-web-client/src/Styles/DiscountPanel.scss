@@ -1,0 +1,264 @@
+@import "./../general";
+
+.common-panel-selected {
+  background-color: gray;
+  box-shadow: none !important;
+  background-color: transparent !important;
+
+  .panel-image {
+    opacity: .1;
+  }
+
+  .panel-selected-text-common {
+    display: block;
+    margin-top: -96px;
+  }
+
+  .panel-selected-text-top {
+    display: block;
+    transform: rotate(-45deg);
+    margin-top: -96px;
+
+    .active-text {
+      font-size: 24px;
+      text-align: center;
+      color: black;
+      font-family: RalewayMedium;
+    }
+
+    .active-selected {
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      font-family: RalewayRegular;
+    }
+  }
+
+  .panel-selected-text-bottom {
+    display: block;
+    transform: rotate(45deg);
+    margin-top: -96px;
+
+    .active-text {
+      font-size: 24px;
+      text-align: center;
+      color: black;
+      font-family: RalewayMedium;
+    }
+
+    .active-selected {
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      font-family: RalewayRegular;
+    }
+  }
+}
+
+.common-panel-unselected {
+  background-color: $dark-color;
+
+  .panel-image {
+    opacity: 1.0;
+  }
+
+  .panel-selected-text-top {
+    display: none;
+  }
+
+  .panel-selected-text-bottom {
+    display: none;
+  }
+}
+
+.common-panel {
+  position: relative;
+  flex: 1;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.4);
+  margin-right: 36px;
+
+  .title {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 36px;
+    font-family: RalewayLight;
+    letter-spacing: 2px;
+  }
+
+  .panel-info-template-selected {
+    position: absolute;
+    height: 27px;
+    width: 100%;
+    background-color: $header-discount-panel-selected;
+    color: #C2C2C2;
+    display: none;
+  }
+
+  .panel-info-template-unselected {
+    position: absolute;
+    height: 27px;
+    width: 100%;
+    background-color: $header-discount-panel-unselected;
+    color: white;
+  }
+
+  .icon-button {
+    position: absolute;
+  }
+
+  .panel-info-button-unselected {
+    position: absolute;
+    color: lightgray;
+    bottom: 4px;
+    left: 9px;
+    font-size: 18px;
+
+    &:hover {
+      cursor: pointer;
+      text-shadow: 0px 9px 18px rgba(0, 0, 0, 0.6);
+      color: $ctrl-color;
+    }
+  }
+
+  .panel-info-button-selected {
+    position: absolute;
+    color: #C2C2C2;
+    bottom: 4px;
+    left: 9px;
+    font-size: 18px;
+
+    &:hover {
+      cursor: pointer;
+      text-shadow: 0px 9px 18px rgba(0, 0, 0, 0.6);
+      color: $ctrl-color;
+    }
+  }
+
+  .panel-info-dn {
+    bottom:0;
+  }
+
+  .panel-info-up {
+    top:0;
+  }
+}
+
+.middle-icon-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-light-icon-color {
+  color:  $light-icon-color;
+}
+
+.panel-dark-icon-color {
+  color:  $dark-icon-color;
+}
+
+
+.laptop-panel {
+  height: $window-panel-max;
+  align-self: flex-end;
+
+  .panel-image {
+    position: relative;
+    height: $window-panel-image;
+    margin-top: 63px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/laptop-1.png);
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+.printer-panel {
+  height: $window-panel-min;
+  align-self: center;
+
+  .panel-image {
+    position: relative;
+    height:$window-panel-image + 24px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/printer-03.png);
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+.desktop-panel {
+  height: $window-panel-max;
+  align-self: flex-end;
+
+  .panel-image {
+    position: relative;
+    height: $window-panel-image;
+    margin-top: 63px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/desktop-01.png);
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+
+.monitor-panel {
+  height: $window-panel-min;
+  align-self: center;
+
+  .panel-image {
+    position: relative;
+    height: $window-panel-image;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/monitor.png);
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+.accessories-panel {
+  height: $window-panel-max;
+  align-self: center;
+
+  .panel-image {
+    position: relative;
+    height: $window-panel-image + 36px;
+    margin-top: 18px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/accessories.png);
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+.multimedia-panel {
+  height: $window-panel-min;
+  align-self: center;
+
+  .panel-image {
+    position: relative;
+    height: $window-panel-image + 24px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/multmedia-1.png);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .panel-image-more {
+    position: absolute;
+    height: 111px;
+    width: 111px;
+    top: 9px;
+    left: 24px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/multmedia-3.png);
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+

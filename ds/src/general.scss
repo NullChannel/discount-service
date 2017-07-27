@@ -1,0 +1,61 @@
+// CENTERING THINGS - https://www.w3.org/Style/Examples/007/center.en.html
+// https://css-tricks.com/controlling-css-animations-transitions-javascript/
+// Date-Time - https://codepen.io/maheshambure21/pen/VYJQYG
+// examples of controls: https://jedwatson.github.io/react-select/
+// Everything you need to learn CSS Grid Layout:  https://gridbyexample.com/examples/
+// Bootstrap Grid Examples: http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-grid-examples.php
+// The most popular front-end framework, rebuilt for React:
+//        https://react-bootstrap.github.io/introduction.html
+//        https://react-bootstrap.github.io/getting-started.html
+//        https://react.rocks/tag/Bootstrap
+//        https://react-bootstrap.github.io/components.html
+
+
+// Table:
+// https://stackoverflow.com/questions/2279396/how-to-remove-unwanted-space-between-rows-and-columns-in-table
+// https://www.quackit.com/html/codes/tables/html_table_border.cfm
+// https://codepen.io/ashblue/pen/mCtuA
+
+// bootstrap components:  http://getbootstrap.com/components/
+
+//
+// material-ui - source-demo - https://material-ui-1dab0.firebaseapp.com/component-demos; https://material-ui-1dab0.firebaseapp.com/
+// material-ui - demo - http://www.material-ui.com/#/components/app-bar
+// material-ui - https://material.io/
+// Material design Introduction - https://material.io/guidelines/material-design/introduction.html
+// material-ui - https://github.com/callemall/material-ui
+
+// d3.js - https://www.npmjs.com/package/react-d3-basic
+
+// text-shadow - https://designshack.net/articles/css/12-fun-css-text-shadows-you-can-copy-and-paste/
+//             - https://www.midwinter-dg.com/blog_demos/css-text-shadows/
+
+//  SASS - install for windows:
+//  https://stackoverflow.com/questions/23732228/sass-filewatcher-for-webstorm
+
+
+
+$main-color:            dodgerblue;
+$main-gray:             gray;
+
+
+$body-bgk:              rgb(231, 231, 231);
+$header-footer-bgk:     rgb(250, 250, 250); //gray;   //rgb(240, 240, 240); // rgb(222, 222, 222);
+$header-footer-clr:     #454545;
+$font-family:           sans-serif;
+
+$window-width:          960px;
+$window-height:         600px;
+$header-footer-height:  45px;
+
+$header-height:         54px;
+$footer-height:         20px;//33px;
+
+$minimize-main-menu:    45px;
+$maximize-main-menu:    180px;
+
+
+//$app-footer-margin-top: $window-height - 2*$header-footer-height;
+
+$app-footer-margin-top: $window-height - ( $header-height + $footer-height ) ;
+$switcher-width:        $window-width - $minimize-main-menu;

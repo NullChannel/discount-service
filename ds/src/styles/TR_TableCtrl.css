@@ -1,0 +1,35 @@
+.tr-table-ctrl {
+  background-color: white; }
+  .tr-table-ctrl td {
+    text-align: left;
+    padding: 6px;
+    max-width: 59px;
+    word-break: break-word;
+    background: none;
+    font-size: 12px;
+    font-weight: 100;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid white; }
+    .tr-table-ctrl td .border-for-select {
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+      background-color: dodgerblue;
+      margin: auto; }
+      .tr-table-ctrl td .border-for-select select {
+        font-size: 13px;
+        border: 0;
+        background-color: dodgerblue;
+        color: white;
+        height: 27px;
+        width: 99%;
+        outline: none; }
+    .tr-table-ctrl td textarea.tr-table-edit {
+      width: 99%;
+      color: black;
+      height: 56px;
+      font-size: 12px;
+      /* font-weight: 100; */
+      word-break: break-all;
+      overflow: hidden;
+      resize: none; }
+
+/*# sourceMappingURL=TR_TableCtrl.css.map */

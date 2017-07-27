@@ -1,0 +1,62 @@
+
+// ------------------------------------------------------------------------------------------------
+
+// onClick={this.onClickProxy.bind(this, id)}
+// onClick={() => this.onClickProxy(id)}
+
+// ------------------------------------------------------------------------------------------------
+
+
+// https://facebook.github.io/react/docs/lists-and-keys.html
+NumberList(props) {
+  const numbers = props.numbers;
+  return (
+     <ul>
+        {numbers.map((number) =>
+           <ListItem key={number.toString()}
+                     value={number} />
+        )}
+     </ul>
+  );
+}
+
+// ------------------------------------------------------------------------------------------------
+
+generateRows() {
+    console.log('TableEntries.generateRows()');
+
+
+    let rows = this.props.entries.map( item => {
+
+        return <TR_TableCtrl excludeColumns={this.excludeColumns}
+                             updateEntry={this.updateEntry}
+                             key={this.common.GUID()}
+                             tds={item} />
+    });
+
+    return rows;
+}
+
+render() {
+
+    return (
+
+        <div className="table-entries">
+            <table className="discount-entries-table">
+                <thead>
+                {this.generateHeaders()}
+                </thead>
+                <tbody>
+                {this.generateRows()}
+                </tbody>
+            </table>
+        </div>
+
+);
+
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------

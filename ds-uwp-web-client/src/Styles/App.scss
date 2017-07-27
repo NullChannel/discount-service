@@ -1,0 +1,9 @@
+
+@import "./../general";
+
+.app-container {
+  width: 100%;
+  height: $window-height;
+  display: flex;
+  justify-content: center;
+}

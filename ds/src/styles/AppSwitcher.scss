@@ -1,0 +1,30 @@
+@import "./../general";
+
+.app-switcher {
+
+  display: block;
+  width: $window-width;
+  height: $app-footer-margin-top;
+  position: fixed;
+  top: 54px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .discount-service-text-logo {
+
+    background-color: #666666;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    //color: transparent;
+    //text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    //font-size: 60px;
+
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    color: white;
+    opacity: 0.3;
+    font: 60px 'Museo700';
+  }
+}

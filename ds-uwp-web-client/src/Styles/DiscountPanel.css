@@ -1,0 +1,193 @@
+/*Standard*/
+.common-panel-selected {
+  background-color: gray;
+  box-shadow: none !important;
+  background-color: transparent !important; }
+  .common-panel-selected .panel-image {
+    opacity: .1; }
+  .common-panel-selected .panel-selected-text-common {
+    display: block;
+    margin-top: -96px; }
+  .common-panel-selected .panel-selected-text-top {
+    display: block;
+    transform: rotate(-45deg);
+    margin-top: -96px; }
+    .common-panel-selected .panel-selected-text-top .active-text {
+      font-size: 24px;
+      text-align: center;
+      color: black;
+      font-family: RalewayMedium; }
+    .common-panel-selected .panel-selected-text-top .active-selected {
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      font-family: RalewayRegular; }
+  .common-panel-selected .panel-selected-text-bottom {
+    display: block;
+    transform: rotate(45deg);
+    margin-top: -96px; }
+    .common-panel-selected .panel-selected-text-bottom .active-text {
+      font-size: 24px;
+      text-align: center;
+      color: black;
+      font-family: RalewayMedium; }
+    .common-panel-selected .panel-selected-text-bottom .active-selected {
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      font-family: RalewayRegular; }
+
+.common-panel-unselected {
+  background-color: #403f3f; }
+  .common-panel-unselected .panel-image {
+    opacity: 1.0; }
+  .common-panel-unselected .panel-selected-text-top {
+    display: none; }
+  .common-panel-unselected .panel-selected-text-bottom {
+    display: none; }
+
+.common-panel {
+  position: relative;
+  flex: 1;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.4);
+  margin-right: 36px; }
+  .common-panel .title {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 36px;
+    font-family: RalewayLight;
+    letter-spacing: 2px; }
+  .common-panel .panel-info-template-selected {
+    position: absolute;
+    height: 27px;
+    width: 100%;
+    background-color: #A6A6A6;
+    color: #C2C2C2;
+    display: none; }
+  .common-panel .panel-info-template-unselected {
+    position: absolute;
+    height: 27px;
+    width: 100%;
+    background-color: #5B5B5B;
+    color: white; }
+  .common-panel .icon-button {
+    position: absolute; }
+  .common-panel .panel-info-button-unselected {
+    position: absolute;
+    color: lightgray;
+    bottom: 4px;
+    left: 9px;
+    font-size: 18px; }
+    .common-panel .panel-info-button-unselected:hover {
+      cursor: pointer;
+      text-shadow: 0px 9px 18px rgba(0, 0, 0, 0.6);
+      color: dodgerblue; }
+  .common-panel .panel-info-button-selected {
+    position: absolute;
+    color: #C2C2C2;
+    bottom: 4px;
+    left: 9px;
+    font-size: 18px; }
+    .common-panel .panel-info-button-selected:hover {
+      cursor: pointer;
+      text-shadow: 0px 9px 18px rgba(0, 0, 0, 0.6);
+      color: dodgerblue; }
+  .common-panel .panel-info-dn {
+    bottom: 0; }
+  .common-panel .panel-info-up {
+    top: 0; }
+
+.middle-icon-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.panel-light-icon-color {
+  color: lightgray; }
+
+.panel-dark-icon-color {
+  color: black; }
+
+.laptop-panel {
+  height: 180px;
+  align-self: flex-end; }
+  .laptop-panel .panel-image {
+    position: relative;
+    height: 90px;
+    margin-top: 63px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/laptop-1.png);
+    background-size: contain;
+    background-position: center; }
+
+.printer-panel {
+  height: 150px;
+  align-self: center; }
+  .printer-panel .panel-image {
+    position: relative;
+    height: 114px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/printer-03.png);
+    background-size: contain;
+    background-position: center; }
+
+.desktop-panel {
+  height: 180px;
+  align-self: flex-end; }
+  .desktop-panel .panel-image {
+    position: relative;
+    height: 90px;
+    margin-top: 63px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/desktop-01.png);
+    background-size: contain;
+    background-position: center; }
+
+.monitor-panel {
+  height: 150px;
+  align-self: center; }
+  .monitor-panel .panel-image {
+    position: relative;
+    height: 90px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/monitor.png);
+    background-size: contain;
+    background-position: center; }
+
+.accessories-panel {
+  height: 180px;
+  align-self: center; }
+  .accessories-panel .panel-image {
+    position: relative;
+    height: 126px;
+    margin-top: 18px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/accessories.png);
+    background-size: contain;
+    background-position: center; }
+
+.multimedia-panel {
+  height: 150px;
+  align-self: center; }
+  .multimedia-panel .panel-image {
+    position: relative;
+    height: 114px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/multmedia-1.png);
+    background-size: contain;
+    background-position: center; }
+  .multimedia-panel .panel-image-more {
+    position: absolute;
+    height: 111px;
+    width: 111px;
+    top: 9px;
+    left: 24px;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/Images/Dark/multmedia-3.png);
+    background-size: contain;
+    background-position: center; }
+
+/*# sourceMappingURL=DiscountPanel.css.map */

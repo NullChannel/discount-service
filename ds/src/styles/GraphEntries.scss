@@ -1,0 +1,35 @@
+@import "./../general";
+
+.graph-entries {
+  /*overflow-y: auto;*/
+  /*box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.3);*/
+  /*background-color: white;*/
+
+  svg {
+    filter: drop-shadow( 6px 6px 6px rgba(0,0,0,0.3));
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+
+  .graph-user-actions {
+    display: block;
+    float: right;
+    margin-right: 15%;
+    margin-top: 6%;
+    font-weight: 100;
+    text-shadow: 2px 6px 6px rgba(0, 0, 0, 0.3), 0px -3px 33px rgba(255, 255, 255, 0.3);
+
+    .user-actions-title {
+      font-size: 24px;
+      color: black;
+      margin-bottom: 15%;
+    }
+
+    .user-actions-value {
+      color: black;
+      font-size: 27px;
+      margin-bottom: 3%;
+    }
+  }
+}
+

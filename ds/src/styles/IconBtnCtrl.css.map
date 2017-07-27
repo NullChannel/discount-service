@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,cAAe;EACb,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,IAAI;EACX,KAAK,ECgCiB,UAAU;ED/BhC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,eAAgC;EAE7C,oBAAQ;IACN,MAAM,EAAE,OAAO",
+"sources": ["IconBtnCtrl.scss","../general.scss"],
+"names": [],
+"file": "IconBtnCtrl.css"
+}

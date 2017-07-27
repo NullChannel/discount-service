@@ -1,0 +1,38 @@
+@import "./../general";
+
+.app-switcher {
+
+  width: $window-width;
+  height: $window-height;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .discount-service-text-logo {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: -1px -1px 1px gray, 1px 1px 1px #403f3f;
+    color: gray;
+    opacity: 0.3;
+    font: 99px 'Museo700';
+  }
+
+  .grid-panels {
+    width: $window-width - 150px;
+    margin-left: 60px;
+
+    .row-panels {
+      display: flex;
+      margin: 36px;
+      font-family: RalewayRegular;
+    }
+  }
+}

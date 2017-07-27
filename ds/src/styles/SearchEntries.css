@@ -1,0 +1,43 @@
+.search-entries-panel {
+  height: 30%;
+  width: 90%;
+  margin: auto; }
+  .search-entries-panel .search-list-box-entries {
+    display: flex;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%); }
+    .search-entries-panel .search-list-box-entries .search-list-separator {
+      margin-right: 3%; }
+      .search-entries-panel .search-list-box-entries .search-list-separator span {
+        display: block;
+        font-size: 13px;
+        font-weight: 100;
+        margin-bottom: 3px; }
+      .search-entries-panel .search-list-box-entries .search-list-separator input {
+        margin-top: 3px;
+        font-size: 13px;
+        border: none;
+        border-bottom: 1px solid grey;
+        background-color: transparent; }
+        .search-entries-panel .search-list-box-entries .search-list-separator input:focus {
+          outline: none;
+          border: none;
+          border-bottom: 1px solid gray !important; }
+        .search-entries-panel .search-list-box-entries .search-list-separator input::-webkit-input-placeholder {
+          font-size: 13px;
+          color: gray;
+          font-weight: 100; }
+      .search-entries-panel .search-list-box-entries .search-list-separator .border-for-select {
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+        background-color: dodgerblue; }
+        .search-entries-panel .search-list-box-entries .search-list-separator .border-for-select select {
+          font-size: 13px;
+          border: 0;
+          width: 100px;
+          height: 27px;
+          color: white;
+          background-color: dodgerblue;
+          outline: none; }
+
+/*# sourceMappingURL=SearchEntries.css.map */

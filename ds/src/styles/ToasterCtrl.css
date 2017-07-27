@@ -1,0 +1,75 @@
+.toaster-ctrl {
+  display: flex;
+  width: 300px;
+  height: 416px;
+  background-color: transparent;
+  margin-left: 60px;
+  box-shadow: 3px 3px 33px rgba(0, 0, 0, 0.9);
+  flex-direction: column;
+  border: none; }
+  .toaster-ctrl .header-section {
+    height: 25%;
+    background-color: black; }
+    .toaster-ctrl .header-section .header-title {
+      color: white;
+      font-size: 14px;
+      margin-left: 18px;
+      margin-right: 18px;
+      margin-top: 11px;
+      font-weight: 100;
+      word-break: break-all; }
+    .toaster-ctrl .header-section .header-description {
+      color: lightgray;
+      font-size: 14px;
+      margin-left: 18px;
+      margin-right: 18px;
+      margin-top: 3px;
+      font-weight: 100; }
+  .toaster-ctrl .image-section {
+    height: 45%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url(../Components/Controls/ms-toaster.png);
+    background-size: cover; }
+  .toaster-ctrl .buttons-section {
+    height: 15%;
+    background-color: black; }
+    .toaster-ctrl .buttons-section ul.buttons-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      text-align: center;
+      margin: auto;
+      width: 45%; }
+      .toaster-ctrl .buttons-section ul.buttons-list li.button-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        float: left;
+        margin-left: 18px; }
+        .toaster-ctrl .buttons-section ul.buttons-list li.button-item .button-item-icon {
+          margin-top: 15px;
+          font-size: 18px; }
+        .toaster-ctrl .buttons-section ul.buttons-list li.button-item .button-item-text {
+          font-size: 13px;
+          margin-top: 3px;
+          font-weight: 100; }
+  .toaster-ctrl .action-section {
+    height: 16%;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    border: none; }
+    .toaster-ctrl .action-section .action-icon {
+      margin-top: 9px;
+      font-size: 18px; }
+    .toaster-ctrl .action-section .action-text {
+      font-size: 13px;
+      margin-top: 6px;
+      font-weight: 100; }
+
+/*# sourceMappingURL=ToasterCtrl.css.map */

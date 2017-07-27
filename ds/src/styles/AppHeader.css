@@ -1,0 +1,20 @@
+.app-header {
+  display: block;
+  height: 54px;
+  line-height: 54px;
+  background-color: #fafafa;
+  color: #454545;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3); }
+  .app-header .toolbar-header {
+    display: block;
+    color: black;
+    float: right;
+    margin-top: 9px;
+    margin-right: 18px; }
+  .app-header .header-title {
+    margin-left: 90px;
+    font-size: 27px;
+    font-weight: 100;
+    text-shadow: 2px 6px 6px rgba(0, 0, 0, 0.3), 0px -3px 33px rgba(255, 255, 255, 0.3); }
+
+/*# sourceMappingURL=AppHeader.css.map */

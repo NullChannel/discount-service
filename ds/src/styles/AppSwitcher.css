@@ -1,0 +1,19 @@
+.app-switcher {
+  display: block;
+  width: 960px;
+  height: 526px;
+  position: fixed;
+  top: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .app-switcher .discount-service-text-logo {
+    background-color: #666666;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    color: white;
+    opacity: 0.3;
+    font: 60px 'Museo700'; }
+
+/*# sourceMappingURL=AppSwitcher.css.map */

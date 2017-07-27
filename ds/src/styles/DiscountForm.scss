@@ -1,0 +1,96 @@
+@import "./../general";
+
+.discount-section {
+  display: flex;
+  margin-left: $minimize-main-menu;
+
+  .discount-form {
+    display: flex;
+    //margin: 45px auto;
+    flex-direction: column;
+    width: 400px;
+
+    span {
+      font-size: 13px;
+      margin-bottom: 3px;
+      color: black;
+      font-weight: 100;
+    }
+
+    input {
+      font-size: 15px;
+      margin-bottom: 12px;
+      //padding-left: 3px;
+      border: none;
+      border-bottom: 1px solid lightgrey;
+      background-color: transparent;
+
+      //&:hover {
+      //   cursor: pointer;
+      //}
+
+      &:focus {
+        outline: none ;
+        border: none;
+        border-bottom: 1px solid gray !important;
+      }
+
+      &::-webkit-input-placeholder {
+        font-size: 13px;
+        color: lightgray;
+        font-weight: 100;
+      }
+    }
+
+    //.separator-line {
+    //  border-radius: 0;
+    //  height: 0;
+    //  width: 100%;
+    //  clear: both;
+    //  float: left;
+    //  border-top: 1px solid rgba(0, 0, 0, 0.1);
+    //  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    //}
+
+
+    .list-box-entries {
+      display:flex;
+      flex-direction: column;
+      margin-top: 3%;
+      width: 60%;
+
+      .list-separator {
+        margin-bottom: 15px;
+
+        //span {
+        //  color: black;
+        //}
+
+        .border-for-select {
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          background-color: $main-color;
+          float: right;
+          width: 60%;
+
+          select {
+            font-size: 13px;
+            border: 0;
+            background-color: dodgerblue;
+            color: white;
+            width: 100px;
+            height: 27px;
+            width: 98%;
+            outline: none;
+          }
+        }
+
+        input {
+          float: right;
+          width: 60%;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+

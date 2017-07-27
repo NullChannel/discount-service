@@ -1,0 +1,8 @@
+C:\Ruby24-x64\bin\sass.bat
+--no-cache --update $FileName$:$FileNameWithoutExtension$.css
+$FileDir$
+$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map
+
+
+
+

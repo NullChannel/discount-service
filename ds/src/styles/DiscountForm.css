@@ -1,0 +1,53 @@
+.discount-section {
+  display: flex;
+  margin-left: 45px; }
+  .discount-section .discount-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px; }
+    .discount-section .discount-form span {
+      font-size: 13px;
+      margin-bottom: 3px;
+      color: black;
+      font-weight: 100; }
+    .discount-section .discount-form input {
+      font-size: 15px;
+      margin-bottom: 12px;
+      border: none;
+      border-bottom: 1px solid lightgrey;
+      background-color: transparent; }
+      .discount-section .discount-form input:focus {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid gray !important; }
+      .discount-section .discount-form input::-webkit-input-placeholder {
+        font-size: 13px;
+        color: lightgray;
+        font-weight: 100; }
+    .discount-section .discount-form .list-box-entries {
+      display: flex;
+      flex-direction: column;
+      margin-top: 3%;
+      width: 60%; }
+      .discount-section .discount-form .list-box-entries .list-separator {
+        margin-bottom: 15px; }
+        .discount-section .discount-form .list-box-entries .list-separator .border-for-select {
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          background-color: dodgerblue;
+          float: right;
+          width: 60%; }
+          .discount-section .discount-form .list-box-entries .list-separator .border-for-select select {
+            font-size: 13px;
+            border: 0;
+            background-color: dodgerblue;
+            color: white;
+            width: 100px;
+            height: 27px;
+            width: 98%;
+            outline: none; }
+        .discount-section .discount-form .list-box-entries .list-separator input {
+          float: right;
+          width: 60%;
+          font-size: 14px; }
+
+/*# sourceMappingURL=DiscountForm.css.map */

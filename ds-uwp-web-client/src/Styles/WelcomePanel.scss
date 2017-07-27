@@ -1,0 +1,62 @@
+@import "./../general";
+
+.welcome-panel {
+  width: 100%;
+  height: $window-height;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .discount-service-text-logo {
+
+    //background-color: #666666;
+    //-webkit-background-clip: text;
+    //background-clip: text;
+
+    //color: transparent;
+    //text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    //font-size: 60px;
+
+    //text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    text-shadow: -1px -1px 1px $dark-color, 1px 1px 1px $middle-light;
+    color: white;
+    opacity: 0.2;
+    //font: 60px 'Museo700';
+    font-size: 72px;
+    font-family: RalewayRegular;
+    //width: $window-width - 400px;
+
+    position: absolute;
+  }
+
+  .welcome-panel-texts {
+    width: $window-width - 400px;
+    height: $window-height - 270px;
+    font-size: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .welcome-panel-next {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .welcome-panel-step-text {
+        width: 690px;
+      }
+
+      .next-step-btn {
+        display: block;
+      }
+
+      .active-text {
+        color: white;
+        font-size: 54px;
+      }
+
+    }
+  }
+}

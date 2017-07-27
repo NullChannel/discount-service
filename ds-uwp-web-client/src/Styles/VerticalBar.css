@@ -1,0 +1,46 @@
+/*Standard*/
+.vertical-bar {
+  width: 36px;
+  background-color: #EDEDED;
+  height: 556px;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  color: black; }
+  .vertical-bar .vertical-text-menu {
+    width: 36px;
+    position: absolute;
+    margin-top: 210px; }
+    .vertical-bar .vertical-text-menu .vertical-menu-item {
+      transform: rotate(270deg);
+      color: black;
+      font-size: 12px;
+      text-transform: uppercase;
+      width: 120px;
+      position: relative;
+      float: left;
+      left: -42px;
+      font-family: RalewaySemiBold; }
+      .vertical-bar .vertical-text-menu .vertical-menu-item:hover {
+        cursor: pointer;
+        font-size: 15px;
+        font-family: RalewayBold; }
+  .vertical-bar .list-bar-top {
+    float: left;
+    position: absolute;
+    margin-top: 69px; }
+    .vertical-bar .list-bar-top .separator {
+      margin-bottom: 15px; }
+  .vertical-bar .list-bar-bottom {
+    float: left;
+    position: absolute;
+    bottom: 24px; }
+    .vertical-bar .list-bar-bottom .separator {
+      margin-top: 15px; }
+  .vertical-bar .separator {
+    height: 1px;
+    width: 36px;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #fcfcfc; }
+
+/*# sourceMappingURL=VerticalBar.css.map */

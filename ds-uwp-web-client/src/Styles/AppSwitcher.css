@@ -1,0 +1,30 @@
+/*Standard*/
+.app-switcher {
+  width: 900px;
+  height: 556px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .app-switcher .discount-service-text-logo {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: -1px -1px 1px gray, 1px 1px 1px #403f3f;
+    color: gray;
+    opacity: 0.3;
+    font: 99px 'Museo700'; }
+  .app-switcher .grid-panels {
+    width: 750px;
+    margin-left: 60px; }
+    .app-switcher .grid-panels .row-panels {
+      display: flex;
+      margin: 36px;
+      font-family: RalewayRegular; }
+
+/*# sourceMappingURL=AppSwitcher.css.map */

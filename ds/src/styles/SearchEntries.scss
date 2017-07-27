@@ -1,0 +1,66 @@
+
+@import "./../general";
+
+.search-entries-panel {
+  //box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  //display: flex;
+  height: 30%;
+  width: 90%;
+  margin: auto;
+
+  .search-list-box-entries {
+    display: flex;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+
+    .search-list-separator {
+      margin-right: 3%;
+
+      span {
+        display: block;
+        font-size: 13px;
+        font-weight: 100;
+        margin-bottom: 3px;
+      }
+
+      input {
+        margin-top: 3px;
+        font-size: 13px;
+        border: none;
+        border-bottom: 1px solid grey;
+        background-color: transparent;
+
+        &:focus {
+          outline: none ;
+          border: none;
+          border-bottom: 1px solid gray !important;
+        }
+
+        &::-webkit-input-placeholder {
+          font-size: 13px;
+          color: gray;
+          font-weight: 100;
+        }
+      }
+
+      .border-for-select {
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+        background-color: dodgerblue;
+
+        select {
+          font-size: 13px;
+          border: 0;
+          width: 100px;
+          height: 27px;
+          color: white;
+          background-color: $main-color;
+          outline: none;
+        }
+
+
+
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import "./../general";
+
+.icon-btn-ctrl {
+  text-align: center;
+  width: 36px;
+  //color: white;
+  font-size: 18px;
+  //text-shadow: 1px 1px darken($ctrl-color, 18%);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
