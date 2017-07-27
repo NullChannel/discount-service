@@ -91,19 +91,19 @@ export default class ServerProxy {
 
         if(ProductionType === SourceMode.debug) {
 
-            //search_for = 'Laptop';
-
-            let results = DataProxy.filter(item => {
-                if(item.title.indexOf(search_for) > -1) {
-                    return item;
-                }
-                if(item.description.indexOf(search_for) > -1) {
-                    return item;
-                }
-            });
-
             setTimeout(() => {
+
+               let results = DataProxy.filter(item => {
+                  if(item.title.indexOf(search_for) > -1) {
+                     return item;
+                  }
+                  if(item.description.indexOf(search_for) > -1) {
+                     return item;
+                  }
+               });
+
                 return callback(false, DataMode.data_exist, results);
+
             }, 1000);
         }
         else {

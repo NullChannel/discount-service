@@ -157,6 +157,7 @@ export const InfoPanelContent = {
 export default class Common {
 
    constructor() {
+      this.init = false;
    }
 
    isEquivalent(a, b) {
