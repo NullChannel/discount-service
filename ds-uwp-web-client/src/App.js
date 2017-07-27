@@ -32,7 +32,7 @@ export default class App extends Component {
        let showWelcome = this.jsGate.getAppCountLaunches() === 0 ? true : false;
 
         this.state = {
-            firstTime:   showWelcome, //this.jsGate.getAppCountLaunches() === 0 ? true : false,    // this is not async, this is value from storage, so it's ON
+            firstTime:   showWelcome,
             userLogin:   false,
             VBarActive:  false,
             toolBar:     ToolBarIds.id_toolbar_panels
