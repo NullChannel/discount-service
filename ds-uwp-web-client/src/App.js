@@ -55,8 +55,6 @@ export default class App extends Component {
    onFinishWelcome(step) {
       console.log('App.onFinishWelcome');
 
-      step = parseInt(step);
-
       this.setState({ firstTime:  false });
 
       this.getDataWrapper();

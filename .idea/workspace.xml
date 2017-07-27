@@ -23,21 +23,20 @@
     <favorites_list name="DiscountServiceGitHub" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5549891">
+    <splitter split-orientation="horizontal" split-proportion="0.4850692">
       <split-first>
         <leaf>
           <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ds-uwp-web-client/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+                <state relative-caret-position="522">
+                  <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#1506#1659#0" expanded="false" />
-                    <element signature="e#1696#1997#0" expanded="false" />
-                    <element signature="e#2036#2407#0" expanded="false" />
-                    <element signature="e#2435#2924#0" expanded="false" />
-                    <element signature="e#2947#3370#0" expanded="false" />
+                    <element signature="e#1666#1967#0" expanded="false" />
+                    <element signature="e#2006#2377#0" expanded="false" />
+                    <element signature="e#2405#2894#0" expanded="false" />
+                    <element signature="e#2917#3340#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -356,12 +355,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501130775336</updated>
       <workItem from="1501130777176" duration="402000" />
-      <workItem from="1501173501885" duration="1877000" />
+      <workItem from="1501173501885" duration="2063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2279000" />
+    <option name="totallyTimeSpent" value="2465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1676" height="1027" extended-state="6" />
@@ -374,7 +373,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43907794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28100988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -437,15 +436,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ds-uwp-web-client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="522">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1506#1659#0" expanded="false" />
-            <element signature="e#1696#1997#0" expanded="false" />
-            <element signature="e#2036#2407#0" expanded="false" />
-            <element signature="e#2435#2924#0" expanded="false" />
-            <element signature="e#2947#3370#0" expanded="false" />
+            <element signature="e#1666#1967#0" expanded="false" />
+            <element signature="e#2006#2377#0" expanded="false" />
+            <element signature="e#2405#2894#0" expanded="false" />
+            <element signature="e#2917#3340#0" expanded="false" />
           </folding>
         </state>
       </provider>
